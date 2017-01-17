@@ -6,8 +6,6 @@
 [![PRs Welcome][32]][33]
 [![API][3]][4]
 
-今天是2017年的第一个工作日，就用这个自定义颜色选择控件来纪念下吧～～
-
 相信做过安卓应用的主题切换、富文本编辑器文字颜色切换、画笔颜色切换等项目，都会遇到关于颜色选择的UI，虽然效果很好实现，比如通过selector的形式就很容易，但是如果项目里面有多处关于颜色选择的UI，只是有一点点差别，
 那么我们就得维护多套selector，不能达到复用的效果，因此，我总结几种常见的UI，通过自定义view达到组合及复用的效果。以下列出5中效果图，当然并不局限于这5中效果，通过多种属性的组合，可以实现很多种效果。
 
@@ -105,9 +103,7 @@ mRectangleColorView.setRectangleColorModel(rectangleColorModel);
 效果：
 <img src="screenshots/xiaoguo2.png"/>
 
-如果在使用过程中遇到什么问题，欢迎[issue](https://github.com/miaolingzi/SmartColorView/issues)告诉我，我将全力为你解决～～
-
-如果喜欢，欢迎star一下，您的star将是我开源路上永久的动力～～
+如果在使用过程中遇到什么问题，欢迎[issue](https://github.com/SmartCodeLab/SmartColorView/issues)告诉我，我将全力为你解决～～
 
 ## About Me
 
@@ -138,6 +134,6 @@ limitations under the License.
 [3]:https://img.shields.io/badge/API-14%2B-red.svg?style=flat
 [4]:https://android-arsenal.com/api?level=14
 [30]:https://img.shields.io/badge/release-1.1.1-red.svg
-[31]:https://github.com/miaolingzi/SmartColorView/releases
+[31]:https://github.com/SmartCodeLab/SmartColorView/releases
 [32]:https://img.shields.io/badge/PRs-welcome-brightgreen.svg
-[33]:https://github.com/miaolingzi/SmartColorView/pulls
+[33]:https://github.com/SmartCodeLab/SmartColorView/pulls
