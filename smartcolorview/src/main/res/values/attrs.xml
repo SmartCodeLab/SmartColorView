@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleColorView">
+        <attr name="circleColor" format="color"/>
+        <attr name="circleSelected" format="boolean"/>
+        <attr name="selectUseOutline" format="boolean"/>
+        <attr name="normalUseOutline" format="boolean"/>
+        <attr name="outlineStrokeWidth" format="float|dimension"/>
+        <attr name="outlineStrokeColor" format="color"/>
+        <attr name="selectUseFrame" format="boolean"/>
+        <attr name="frameStrokeWidth" format="float|dimension"/>
+        <attr name="frameStrokeColor" format="color"/>
+        <attr name="frameCornerRadius" format="float|dimension"/>
+        <attr name="innerType" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="inner" value="1"/>
+            <enum name="tick" value="2"/>
+        </attr>
+        <attr name="innerStrokeWidth" format="float|dimension"/>
+        <attr name="innerStrokeColor" format="color"/>
+        <attr name="innerStrokeDividerWidth" format="float|dimension"/>
+        <attr name="tickStrokeWidth" format="float|dimension"/>
+        <attr name="tickStrokeColor" format="color"/>
+        <attr name="tickBackgroundDividerWidth" format="float|dimension"/>
+        <attr name="tickBackgroundColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="TickView">
+        <attr name="tickViewStrokeWidth" format="float|dimension"/>
+        <attr name="tickViewStrokeColor" format="color"/>
+        <attr name="tickViewBackgroundColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RectangleColorView">
+        <attr name="rectangleColor" format="color"/>
+        <attr name="rectangleSelected" format="boolean"/>
+        <attr name="rectangleCornerRadius" format="float|dimension"/>
+        <attr name="rectOutlineStrokeWidth" format="float|dimension"/>
+        <attr name="rectOutlineStrokeColor" format="color"/>
+        <attr name="rectTickDirection" format="enum">
+            <enum name="leftTop" value="0"/>
+            <enum name="rightTop" value="1"/>
+            <enum name="leftBottom" value="2"/>
+            <enum name="rightBottom" value="3"/>
+            <enum name="center" value="4"/>
+        </attr>
+        <attr name="rectTickStrokeWidth" format="float|dimension"/>
+        <attr name="rectTickStrokeColor" format="color"/>
+        <attr name="rectTickBackgroundColor" format="color"/>
+        <attr name="rectShowTick" format="boolean"/>
+        <attr name="rectTickType" format="enum">
+            <enum name="auto" value="0"/>
+            <enum name="custom" value="1"/>
+        </attr>
+        <attr name="rectTickWidth" format="float|dimension"/>
+        <attr name="rectTickHeight" format="float|dimension"/>
+    </declare-styleable>
+</resources>
